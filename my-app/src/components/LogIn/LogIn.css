@@ -1,0 +1,66 @@
+/* LogIn.css */
+
+.bg-container {
+    display: flex;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+.left-section {
+    flex: 1;
+    background-color: #F5F1ED; /* Color de fondo similar al de la imagen */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.right-section {
+    flex: 1;
+    background-color: #1F3331; /* Color oscuro de la sección de login */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.card2 {
+    width: 100%;
+    max-width: 400px;
+    background: transparent;
+    border: none;
+    text-align: center;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+
+.form-container {
+    width: 100%;
+}
+
+.input-container {
+    margin-bottom: 1.5rem;
+}
+
+.button-primary {
+    background-color: #F5F1ED; /* Color del botón */
+    color: #1F3331;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.8rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-primary:hover {
+    background-color: #e0dbd5;
+}
+
+.alert {
+    margin-top: 1rem;
+}
