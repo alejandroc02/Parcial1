@@ -1,2 +1,0 @@
-# Parcial1
-readme
